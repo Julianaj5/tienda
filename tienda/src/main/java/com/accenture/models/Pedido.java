@@ -56,6 +56,23 @@ public class Pedido {
 	public int getIdProducto() {
 		return idProducto;
 	}
+
+	public double getTotalPedido() {
+		return totalPedido;
+	}
+
+	public void setTotalPedido(double totalPedido) {
+		this.totalPedido = totalPedido;
+	}
+
+	public Date getFecha() {
+		return fecha;
+	}
+
+	@Override
+	public String toString() {
+		return "Pedido [id=" + id + ", cedulaCliente=" + cedulaCliente + ", idProducto=" + idProducto + ", totalPedido=" + totalPedido + ", fecha=" + fecha + "]";
+	}
 	
 	
 	
